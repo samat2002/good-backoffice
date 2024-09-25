@@ -5,9 +5,9 @@ import errorImage from "@/assets/images/error.png"
 
 const defaultImage = "https://coffective.com/wp-content/uploads/2018/06/default-featured-image.png.jpg"
 
-definePageMeta({
-  middleware: ["auth"],
-});
+// definePageMeta({
+//   middleware: ["auth"],
+// });
 
 const { getAboutByID, updateAboutBy, insertAbout } = useAbout();
 const router = useRouter();

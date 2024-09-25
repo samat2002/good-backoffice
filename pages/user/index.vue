@@ -5,9 +5,9 @@ import Swal from "sweetalert2";
 
 import errorImage from "@/assets/images/error.png"
 
-definePageMeta({
-  middleware: ["auth"],
-});
+// definePageMeta({
+//   middleware: ["auth"],
+// });
 
 const { getUserBy, updatePasswordUserBy, deleteUserBy } = useUser();
 

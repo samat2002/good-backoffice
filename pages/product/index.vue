@@ -2,7 +2,7 @@
 import { VDataTable } from 'vuetify/components'
 import Swal from "sweetalert2"; import errorImage from "@/assets/images/error.png"
 
-definePageMeta({ middleware: ["auth"] });
+// definePageMeta({ middleware: ["auth"] });
 const { getProductBy, deleteProduct } = useProduct();
 const { $auth } = useNuxtApp()
 const { permission_add, permission_delete, permission_edit } = $auth.getPermission('product')

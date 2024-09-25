@@ -4,7 +4,7 @@ import { onMounted } from "vue";
 import useSkill from "~/composables/useSkill";
 import type { Skill } from "~~/misc/types"
 
-definePageMeta({ middleware: ["auth"] });
+// definePageMeta({ middleware: ["auth"] });
 const { generateSkillID, insertSkill, } = useSkill();
 const router = useRouter();
 

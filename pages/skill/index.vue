@@ -2,7 +2,7 @@
 import { VDataTable } from 'vuetify/components'
 import Swal from "sweetalert2";
 
-definePageMeta({ middleware: ["auth"] });
+// definePageMeta({ middleware: ["auth"] });
 const { getSkillBy, deleteSkillBy } = useSkill();
 const { $auth } = useNuxtApp()
 const { permission_add, permission_delete, permission_edit } = $auth.getPermission('skill')

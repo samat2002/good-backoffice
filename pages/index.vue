@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 
-definePageMeta({
-  middleware: ["auth"],
-});
+// definePageMeta({
+//   middleware: ["auth"],
+// });
 
 const pending = ref(true)
 const current_date = ref<Date>(new Date())
@@ -32,7 +32,7 @@ async function fetchData() {
     <v-card-item>
       <v-row class="d-flex justify-space-between my-4 mx-4">
         <v-col>
-          <h1 class="text-center my-4">คู่มือการใช้งาน</h1>
+          <!-- <h1 class="text-center my-4">คู่มือการใช้งาน</h1>
           <p>banner ผมได้ทำเป็น carousel ไว้ เผื่อได้ไช้นะคับ จะได้เลื่อนหลายๆรูปได้ ส่วนเนื่อหาของ banner
             เปลี่ยนไม่ได้นะคับ ผมกำหนดไว้เป็นเเค่ index 0 คือของอันเเรกเท่านั้น</p><br>
           <hr>
@@ -51,7 +51,7 @@ async function fetchData() {
             นั่นคือ ถ้าจะมาจัดการทีหลังไห้ตรงกับ tag Industry Education Outsource ต้องมาเปลี่ยนโค้ดทีหลังนะคับทีหลัง
           </p><br>
           <hr>
-          <p>footer ไม่ได้ใช้งานนะคับ ไม่รู้จะไส่ตรงไหนดี</p>
+          <p>footer ไม่ได้ใช้งานนะคับ ไม่รู้จะไส่ตรงไหนดี</p> -->
         </v-col>
       </v-row>
     </v-card-item>
